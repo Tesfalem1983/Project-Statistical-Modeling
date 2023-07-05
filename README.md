@@ -1,17 +1,26 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
+    Project Description: Statistical modeling using python
+    Project Goals: Access APIs’, get data, ,EDA, and build model.
 
 ## Process
-### (your step 1)
-### (your step 2)
+    ### Step 1: Make API queries to Citybike.
+    ### Step 2: Make API queries to both Foursquare & Yelp based on the bike station locations in Citybike.
+    ### Step 3: Combine data, visualize to do EDA, and create SQLite database.
+    ### Step 4: Build model to get r/ship between number of bikes & characteristics of the PoIs’ in that location.
+
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+    ### Comparison of foursquare and Yelp APIs’ show us that foursquare data give complete picture as compared to yelp data. Yelp data returned a very limited data of very few PoI locations. This it is recommendable to drop the data collected from Yelp for further analysis.    
 
 ## Challenges 
-(discuss challenges you faced in the project)
+    ### Yelp API access limitations
+    ### Stuck in some challenges that wasted lot of time in navigating to come out of it.
+
 
 ## Future Goals
-(what would you do if you had more time?)
+    ### Finish building regression model to demonstrate relationship
+    ### Perform further EDA to gain more insights on the combined data.
+    ### Think of a way to change the regression model in to classification one.
+
